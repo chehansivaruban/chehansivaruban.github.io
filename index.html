@@ -1,1 +1,412 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="description" content="Web site created using create-react-app"/><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/><title>Chehan Sivaruban</title><style>*{font-family:Roboto,sans-serif;margin:0;overflow-x:hidden}</style><link href="/static/css/main.0e135073.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(e){function r(r){for(var n,l,f=r[0],i=r[1],p=r[2],c=0,s=[];c<f.length;c++)l=f[c],Object.prototype.hasOwnProperty.call(o,l)&&o[l]&&s.push(o[l][0]),o[l]=0;for(n in i)Object.prototype.hasOwnProperty.call(i,n)&&(e[n]=i[n]);for(a&&a(r);s.length;)s.shift()();return u.push.apply(u,p||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,f=1;f<t.length;f++){var i=t[f];0!==o[i]&&(n=!1)}n&&(u.splice(r--,1),e=l(l.s=t[0]))}return e}var n={},o={1:0},u=[];function l(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,l),t.l=!0,t.exports}l.m=e,l.c=n,l.d=function(e,r,t){l.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},l.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},l.t=function(e,r){if(1&r&&(e=l(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(l.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)l.d(t,n,function(r){return e[r]}.bind(null,n));return t},l.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return l.d(r,"a",r),r},l.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},l.p="/";var f=this.webpackJsonpportfolio=this.webpackJsonpportfolio||[],i=f.push.bind(f);f.push=r,f=f.slice();for(var p=0;p<f.length;p++)r(f[p]);var a=i;t()}([])</script><script src="/static/js/2.dde21cd3.chunk.js"></script><script src="/static/js/main.776e0c83.chunk.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Chehan</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="HTML5 website template">
+  <meta name="keywords" content="global, template, html, sass, jquery">
+  <meta name="author" content="Bucky Maler">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+/>
+</head>
+<body>
+
+<!-- notification for small viewports and landscape oriented smartphones -->
+<div class="device-notification">
+  <a class="device-notification--logo" href="#0">
+    <img src="assets/img/logo.png" alt="Global">
+    <p>Chehan</p>
+  </a>
+  <p class="device-notification--message">My PortFolio has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
+</div>
+
+<div class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <header class="header">
+          <a class="header--logo" href="#0">
+            <img src="assets/img/logo.png" alt="Global">
+            <p>Chehan</p>
+          </a>
+          <!-- <button class="header--cta cta">Hire Us</button> -->
+          <div class="header--nav-toggle">
+            <span></span>
+          </div>
+        </header>
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span>Home</span></li>
+            <li><span>Works</span></li>
+            <li><span>About</span></li>
+            <li><span>Contact</span></li>
+            <li><span>Hire us</span></li>
+          </ul>
+        </nav>
+        <ul class="l-main-content main-content">
+          <li class="l-section section section--is-active">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>Chehan <br>Sivaruban<br></h1>
+                <h2>Software Engineer | Flutter Expert</h2>
+                <button class="cta" onclick="downloadPDF(event)">
+                  Resume 
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                      <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                          <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                      </g>
+                  </svg>
+                  <span class="btn-background"></span>
+              </button>
+              <div class="beng">
+                <a href="#0">
+                  <h3>BEng. in Software Engineering (Hons) </h3>
+                  <p>Informatics Institute of Technology  
+                    (affiliated with the University of Westminster, 
+                    London) 
+                    Second Upper Class (Honors) </p>
+                </a>
+               
+              </div>
+              
+              <script>
+                function downloadPDF(event) {
+                    event.preventDefault(); // Prevent any default action (like navigating)
+                    const link = document.createElement('a');
+                    link.href = 'assets/doc/16092024_cv_chehan.pdf';  // Path to the PDF file
+                    link.download = '16092024_cv_chehan.pdf';         // The file name that will be downloaded
+                    link.click();
+                }
+              </script>
+              
+
+              
+                <img src="assets/img/potrait.png" alt="Welcome" height="500">
+              </div>
+              <div class="intro--options">
+                <a href="mailto:chehansivaruban@gmail.com" target="_blank">
+                  <i class="fas fa-envelope"></i>
+                  <h3>Email Me</h3>
+                </a>
+                <a href="https://www.linkedin.com/in/chehan-sivaruban" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                  <h3>LinkedIn</h3>
+                </a>
+                <a href="https://github.com/Chehansivaruban" target="_blank">
+                  <i class="fab fa-github"></i>
+                  <h3>GitHub</h3>
+                </a>
+                <a href="https://medium.com/@chehansivaruban" target="_blank">
+                  <i class="fab fa-medium"></i>
+                  <h3>Medium</h3>
+                </a>
+              </div>
+              
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="work">
+              <div class="about-container">
+                <h1>About Me</h1>
+                <p>
+                  I am <strong>Chehan Sivaruban</strong>, a dedicated Software Engineer from Colombo, Sri Lanka, with a passion for mobile development. I specialize in building high-performance applications using <strong>Flutter</strong> and have experience working across a range of technologies, including <strong>Kotlin</strong>, <strong>Java</strong>, <strong>React</strong>, and <strong>Node.js</strong>. My expertise lies in designing scalable and maintainable mobile solutions following Clean Architecture and Domain-Driven Design (DDD) principles.
+                </p>
+                <p>
+                  I hold a <strong>BEng. in Software Engineering (Hons)</strong> from the Informatics Institute of Technology, affiliated with the University of Westminster, London, where I graduated with Second Upper Class Honors. Throughout my career, I have led the development of large-scale applications, collaborated with cross-functional teams, and consistently delivered high-quality products that meet business and user needs.
+                </p>
+                <p>
+                  With a strong focus on writing clean, reusable code, I am always eager to tackle new challenges and refine my skills. I am committed to excellence, whether working independently or as part of a team.
+                </p>
+                <hr>
+               
+              </div>
+              <br>
+              <h2>Tech Stack</h2>
+              <div class="marquee-container">
+                <div class="fade-left"></div>
+                <div class="marquee">
+                  <img src="assets/img/flutter_image.png" alt="Jack's avatar">
+                  <img src="assets/img/dart_image.png" alt="Jack's avatar" >
+                  <img src="assets/img/android_image.png" alt="Jack's avatar" >
+                  <img src="assets/img/kotlin_image.png" alt="Jack's avatar">
+                  <img src="assets/img/react_image.png" alt="Jack's avatar" >
+                  <img src="assets/img/mongo_image.png" alt="Jack's avatar" >
+                  <img src="assets/img/sql_image.png" alt="Jack's avatar" >
+                  <img src="assets/img/python_image.png" alt="Jack's avatar" >
+                  <img src="assets/img/node_image.png" alt="Jack's avatar" >
+                  <img src="assets/img/figma_image.png" alt="Jack's avatar" >
+                </div>
+                <div class="fade-right"></div>
+              </div>
+            
+              <!-- <div class="marquee-container" style="margin-top: 20px;">
+                <div class="fade-left"></div>
+                <div class="marquee-reverse">
+                  <img src="https://avatar.vercel.sh/jane" alt="Jane's avatar">
+                  <img src="https://avatar.vercel.sh/jenny" alt="Jenny's avatar">
+                  <img src="https://avatar.vercel.sh/james" alt="James's avatar">
+                </div>
+                <div class="fade-right"></div>
+              </div>  -->
+            
+              <!-- <div class="work--lockup">
+                <ul class="slider">
+                  <li class="slider--item slider--item-left">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/work-victory.jpg" alt="Victory">
+                      </div>
+                      <p class="slider--item-title">Victory</p>
+                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-center">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/work-metiew-smith.jpg" alt="Metiew and Smith">
+                      </div>
+                      <p class="slider--item-title">Metiew &amp; Smith</p>
+                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-right">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak">
+                      </div>
+                      <p class="slider--item-title">Alex Nowak</p>
+                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div> -->
+              <!-- </div> -->
+            </div>
+          </li>
+          <li class="l-section section">
+         <div class="about">
+             <!--     <div class="about--banner">
+                <h2>We<br>believe in<br>passionate<br>people</h2>
+                <a href="#0">Career
+                  <span>
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                      <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                        <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+                <img src="assets/img/about-visual.png" alt="About Us">
+              </div>
+               -->
+              <!-- Scrollable Project Section -->
+              <div class="about--projects">
+                <h3>My Projects</h3>
+                <div class="projects-container">
+                  <!-- Each project card -->
+                  <div class="project-card">
+                    <h4>Predictive System for Tweet Engagement</h4>
+                    <p>Developed a predictive system using emotion detection, topic classification, and sentiment analysis to forecast engagement.</p>
+                    <a href="https://bit.ly/3B2VQCB" target="_blank">Learn More</a>
+                  </div>
+          
+                  <div class="project-card">
+                    <h4>Solar Photovoltaic Productivity Prediction</h4>
+                    <p>Collaborated to create an app predicting solar photovoltaic productivity based on environmental factors.</p>
+                    <a href="https://bit.ly/3B2VQCB" target="_blank">Learn More</a>
+                  </div>
+          
+                  <div class="project-card">
+                    <h4>Premier League Manager</h4>
+                    <p>Designed a Premier League club management system using OOP and the MVC architecture.</p>
+                    <a href="https://bit.ly/3B2VQCB" target="_blank">Learn More</a>
+                  </div>
+                  <div class="project-card">
+                    <h4>Premier League Manager</h4>
+                    <p>Designed a Premier League club management system using OOP and the MVC architecture.</p>
+                    <a href="https://bit.ly/3B2VQCB" target="_blank">Learn More</a>
+                  </div>
+                  <div class="project-card">
+                    <h4>Premier League Manager</h4>
+                    <p>Designed a Premier League club management system using OOP and the MVC architecture.</p>
+                    <a href="https://bit.ly/3B2VQCB" target="_blank">Learn More</a>
+                  </div>
+          
+                  <!-- Add more project cards as needed -->
+                </div>
+              </div>
+            </div>
+          </li>
+          
+       <li class="l-section section">
+  <div class="experience-education">
+    <div class="experience-education--lockup">
+      <div class="scroll-container">
+        <!-- Experience Section -->
+        <div class="modal--information">
+          <h2>Experience</h2>
+
+          <div class="experience-item">
+            <h3>Software Engineer | CodeGen International</h3>
+            <p>May 2023 - Present</p>
+            <p>Lead mobile development for large-scale applications using Flutter, delivering high-quality apps with performance optimization. Architect and implement scalable, maintainable mobile solutions following Clean Architecture principles and Domain-Driven Design (DDD).</p>
+          </div>
+
+          <div class="experience-item">
+            <h3>Associate Software Engineer | Omobio (Pvt) Ltd</h3>
+            <p>July 2022 - May 2023</p>
+            <p>Developed and maintained large-scale telecommunication mobile applications using Flutter. Contributed to backend development with Java and Spring Boot and managed smooth app deployments on Google Play Store and Apple App Store.</p>
+          </div>
+
+          <div class="experience-item">
+            <h3>Software Engineering Intern | Omobio (Pvt) Ltd</h3>
+            <p>July 2021 - July 2022</p>
+            <p>Led research and development of emerging technologies to modernize telco self-care applications. Contributed to app migration from Ionic to Flutter using Domain-Driven Design (DDD) principles.</p>
+          </div>
+        </div>
+
+        <!-- Education Section -->
+        <div class="modal--information">
+          <h2>Education</h2>
+
+          <div class="education-item">
+            <h3>BEng. in Software Engineering (Hons)</h3>
+            <p>Informatics Institute of Technology (Affiliated with University of Westminster, London)</p>
+            <p>Graduated with Second Upper Class Honors (2020 - 2022)</p>
+          </div>
+
+          <div class="education-item">
+            <h3>Advanced Level & Ordinary Level</h3>
+            <p>Wesley College, Colombo</p>
+            <p>Advanced Level: Combined Mathematics, Physics & Chemistry<br>Ordinary Level: 7As, 2Bs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+
+          <li class="l-section section">
+            <div class="hire">
+              <h2>You want us to do</h2>
+              <!-- checkout formspree.io for easy form setup -->
+              <form class="work-request">
+                <div class="work-request--options">
+                  <span class="options-a">
+                    <input id="opt-1" type="checkbox" value="app design">
+                    <label for="opt-1">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      App Design
+                    </label>
+                    <input id="opt-2" type="checkbox" value="graphic design">
+                    <label for="opt-2">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Graphic Design
+                    </label>
+                    <input id="opt-3" type="checkbox" value="motion design">
+                    <label for="opt-3">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Motion Design
+                    </label>
+                  </span>
+                  <span class="options-b">
+                    <input id="opt-4" type="checkbox" value="ux design">
+                    <label for="opt-4">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      UX Design
+                    </label>
+                    <input id="opt-5" type="checkbox" value="webdesign">
+                    <label for="opt-5">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Webdesign
+                    </label>
+                    <input id="opt-6" type="checkbox" value="marketing">
+                    <label for="opt-6">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Marketing
+                    </label>
+                  </span>
+                </div>
+                <div class="work-request--information">
+                  <div class="information-name">
+                    <input id="name" type="text" spellcheck="false">
+                    <label for="name">Name</label>
+                  </div>
+                  <div class="information-email">
+                    <input id="email" type="email" spellcheck="false">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+                <input type="submit" value="Send Request">
+              </form>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <ul class="outer-nav">
+    <li class="is-active">Home</li>
+    <li>Works</li>
+    <li>About</li>
+    <li>Contact</li>
+    <li>Hire us</li>
+  </ul>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
+</body>
+</html>
